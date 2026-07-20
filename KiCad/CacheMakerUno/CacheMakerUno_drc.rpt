@@ -1,20 +1,12 @@
 ** Drc report for CacheMakerUno.kicad_pcb **
-** Created on 2026-07-19T19:26:57 **
+** Created on 2026-07-19T19:29:28 **
 ** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 233 DRC violations **
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
-    @(5.3975 mm, -31.7500 mm): Track [TX1] on F.Cu, length 8.8900 mm
-    @(8.8900 mm, -30.4800 mm): PTH pad P$2 [5V] of R1
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
-    Local override; error
     @(7.6200 mm, -34.2900 mm): Track [A4] on F.Cu, length 2.5400 mm
     @(8.8900 mm, -35.5600 mm): PTH pad P$1 [A5] of R3
-[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
-    Local override; error
-    @(49.8475 mm, -36.8300 mm): PTH pad 2 [5V] of J1
-    @(50.4825 mm, -35.5600 mm): Track [D12] on B.Cu, length 1.5875 mm
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
     @(48.5775 mm, -38.1000 mm): Track [D13] on B.Cu, length 2.5400 mm
@@ -23,6 +15,14 @@
     Local override; error
     @(52.3875 mm, -36.8300 mm): PTH pad 1 [D12] of J1
     @(51.1175 mm, -40.6400 mm): Track [RESET] on F.Cu, length 5.7150 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(5.3975 mm, -31.7500 mm): Track [TX1] on F.Cu, length 8.8900 mm
+    @(8.8900 mm, -30.4800 mm): PTH pad P$2 [5V] of R1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(49.8475 mm, -36.8300 mm): PTH pad 2 [5V] of J1
+    @(50.4825 mm, -35.5600 mm): Track [D12] on B.Cu, length 1.5875 mm
 [clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
     Local override; error
     @(45.7200 mm, -36.1950 mm): Track [D11] on B.Cu, length 1.9050 mm
