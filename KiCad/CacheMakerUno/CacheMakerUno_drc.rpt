@@ -1,0 +1,1030 @@
+** Drc report for CacheMakerUno.kicad_pcb **
+** Created on 2026-07-19T19:26:57 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 233 DRC violations **
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(5.3975 mm, -31.7500 mm): Track [TX1] on F.Cu, length 8.8900 mm
+    @(8.8900 mm, -30.4800 mm): PTH pad P$2 [5V] of R1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(7.6200 mm, -34.2900 mm): Track [A4] on F.Cu, length 2.5400 mm
+    @(8.8900 mm, -35.5600 mm): PTH pad P$1 [A5] of R3
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(49.8475 mm, -36.8300 mm): PTH pad 2 [5V] of J1
+    @(50.4825 mm, -35.5600 mm): Track [D12] on B.Cu, length 1.5875 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(48.5775 mm, -38.1000 mm): Track [D13] on B.Cu, length 2.5400 mm
+    @(49.8475 mm, -36.8300 mm): PTH pad 2 [5V] of J1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(52.3875 mm, -36.8300 mm): PTH pad 1 [D12] of J1
+    @(51.1175 mm, -40.6400 mm): Track [RESET] on F.Cu, length 5.7150 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1778 mm)
+    Local override; error
+    @(45.7200 mm, -36.1950 mm): Track [D11] on B.Cu, length 1.9050 mm
+    @(46.9900 mm, -35.5600 mm): PTH pad P$2 [D13] of R5
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0564 mm)
+    Rule: board setup constraints; error
+    @(52.3875 mm, -19.3675 mm): PTH pad 1 [N$3] of D2
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0564 mm)
+    Rule: board setup constraints; error
+    @(51.1175 mm, -19.3675 mm): PTH pad 2 [5V] of D2
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0564 mm)
+    Rule: board setup constraints; error
+    @(49.8475 mm, -19.3675 mm): PTH pad 3 [N$4] of D2
+[annular_width]: Annular width (board setup constraints min annular width 0.1000 mm; actual 0.0564 mm)
+    Rule: board setup constraints; error
+    @(48.5775 mm, -19.3675 mm): PTH pad 4 [N$5] of D2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(51.1175 mm, -25.0825 mm): PCB text 'Common' on F.Silkscreen
+    @(49.8475 mm, -24.7650 mm): Reference field of JP19
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.7200 mm, -28.7020 mm): Segment of U1 on F.Silkscreen
+    @(45.7200 mm, -29.2100 mm): Reference field of R5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.7200 mm, -28.7020 mm): Segment of U1 on F.Silkscreen
+    @(45.7200 mm, -29.2100 mm): Reference field of R5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(54.6100 mm, -52.7050 mm): PCB text 'GND' on F.Silkscreen
+    @(54.5338 mm, -54.0512 mm): Reference field of JP16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(54.6100 mm, -50.1650 mm): PCB text '+5V' on F.Silkscreen
+    @(54.5338 mm, -54.0512 mm): Reference field of JP16
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+    @(37.4650 mm, -16.5100 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -16.5100 mm): Segment of JP15 on F.Silkscreen
+    @(37.4650 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(35.5600 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(36.1950 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(35.5600 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(37.4650 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(35.5600 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(36.1950 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.1000 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(36.1950 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.1000 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.7350 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.1000 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.7350 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.7350 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.1000 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(38.7350 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(40.0050 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.7350 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+    @(40.6400 mm, -19.6850 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(36.1950 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(35.5600 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(36.1950 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+    @(36.1950 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+    @(40.0050 mm, -16.5100 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(36.1950 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(36.1950 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(36.1950 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(37.4650 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(36.1950 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.1000 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(37.4650 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.1000 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(37.4650 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.1000 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(38.7350 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.7350 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(38.7350 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(38.1000 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(38.7350 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(38.7350 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(40.6400 mm, -22.2250 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(40.0050 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(40.6400 mm, -22.2250 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.6400 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(41.2750 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.6400 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(42.5450 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+    @(40.6400 mm, -19.6850 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(41.2750 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(40.6400 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(41.2750 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+    @(43.1800 mm, -19.6850 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.1800 mm, -19.6850 mm): Segment of JP14 on F.Silkscreen
+    @(42.5450 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+    @(42.5450 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.5450 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(42.5450 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8150 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(43.1800 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(43.1800 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8150 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(43.8150 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(43.8150 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(45.7200 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(43.8150 mm, -19.0500 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(45.7200 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.5450 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(41.2750 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(41.2750 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(43.1800 mm, -22.2250 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.5450 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(42.5450 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(42.5450 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(43.1800 mm, -22.2250 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.1800 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(43.8150 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(43.1800 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8150 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(43.8150 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8150 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(43.8150 mm, -21.5900 mm): Segment of JP14 on F.Silkscreen
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.7200 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(45.7200 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.0050 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+    @(40.6400 mm, -17.1450 mm): Segment of JP15 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(40.6400 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+    @(42.5450 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8900 mm, -24.1300 mm): Segment of R1 on F.Silkscreen
+    @(8.8900 mm, -22.8600 mm): PTH pad P$1 [RESET] of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(13.9700 mm, -12.7000 mm): Segment of R10 on F.Silkscreen
+    @(13.9700 mm, -13.9700 mm): PTH pad P$1 [5V] of R10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(13.9700 mm, -12.4460 mm): Segment of R10 on F.Silkscreen
+    @(13.9700 mm, -11.4300 mm): PTH pad P$2 [B2] of R10
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(16.5100 mm, -12.7000 mm): Segment of R9 on F.Silkscreen
+    @(16.5100 mm, -13.9700 mm): PTH pad P$1 [5V] of R9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(16.5100 mm, -12.4460 mm): Segment of R9 on F.Silkscreen
+    @(16.5100 mm, -11.4300 mm): PTH pad P$2 [B1] of R9
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.4300 mm, -12.7000 mm): Segment of R11 on F.Silkscreen
+    @(11.4300 mm, -13.9700 mm): PTH pad P$1 [5V] of R11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(11.4300 mm, -12.4460 mm): Segment of R11 on F.Silkscreen
+    @(11.4300 mm, -11.4300 mm): PTH pad P$2 [B3] of R11
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.2100 mm, -42.5850 mm): Circle of U$1 on F.Silkscreen
+    @(31.7500 mm, -43.1800 mm): PTH pad 2 [5V] of C6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.2100 mm, -42.5850 mm): Circle of U$1 on F.Silkscreen
+    @(26.6700 mm, -43.1800 mm): PTH pad 1 [AVCC] of C3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.2100 mm, -47.5850 mm): Segment of U$1 on F.Silkscreen
+    @(29.2100 mm, -42.5850 mm): PTH pad 2 [AVCC] of U$1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(29.2100 mm, -47.5850 mm): Segment of U$1 on F.Silkscreen
+    @(29.2100 mm, -47.5850 mm): PTH pad 1 [5V] of U$1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.9900 mm, -29.2100 mm): Segment of R5 on F.Silkscreen
+    @(46.9900 mm, -27.9400 mm): PTH pad P$1 [N$2] of R5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.2750 mm, -51.4350 mm): Segment of R4 on F.Silkscreen
+    @(41.2750 mm, -52.7050 mm): PTH pad P$1 [N$1] of R4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.2750 mm, -51.1810 mm): Segment of R4 on F.Silkscreen
+    @(41.2750 mm, -50.1650 mm): PTH pad P$2 [5V] of R4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.9900 mm, -34.2900 mm): Segment of R5 on F.Silkscreen
+    @(46.9900 mm, -35.5600 mm): PTH pad P$2 [D13] of R5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(35.5600 mm, -52.7050 mm): Footprint text of C4 (+)
+    @(36.8300 mm, -52.4350 mm): PTH pad + [5V] of C4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(36.1950 mm, -24.1300 mm): Segment of JP13 on F.Silkscreen
+    @(36.8300 mm, -25.4000 mm): PTH pad 4 [D5] of JP4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(38.7350 mm, -24.1300 mm): Segment of JP13 on F.Silkscreen
+    @(39.3700 mm, -25.4000 mm): PTH pad 3 [D6] of JP4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(41.2750 mm, -24.1300 mm): Segment of JP13 on F.Silkscreen
+    @(41.9100 mm, -25.4000 mm): PTH pad 2 [D7] of JP4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.1800 mm, -23.4950 mm): Segment of JP13 on F.Silkscreen
+    @(44.4500 mm, -22.8600 mm): PTH pad 1 [D8] of JP13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8150 mm, -24.1300 mm): Segment of JP13 on F.Silkscreen
+    @(44.4500 mm, -25.4000 mm): PTH pad 1 [D8] of JP4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.7200 mm, -23.4950 mm): Segment of JP13 on F.Silkscreen
+    @(44.4500 mm, -22.8600 mm): PTH pad 1 [D8] of JP13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.1800 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8150 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(44.4500 mm, -20.3200 mm): PTH pad 1 [5V] of JP14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.0850 mm, -19.0500 mm): Segment of JP14 on F.Silkscreen
+    @(44.4500 mm, -20.3200 mm): PTH pad 1 [5V] of JP14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.7200 mm, -18.4150 mm): Segment of JP15 on F.Silkscreen
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.1800 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(44.4500 mm, -20.3200 mm): PTH pad 1 [5V] of JP14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8150 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(44.4500 mm, -22.8600 mm): PTH pad 1 [D8] of JP13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.7200 mm, -20.9550 mm): Segment of JP14 on F.Silkscreen
+    @(44.4500 mm, -20.3200 mm): PTH pad 1 [5V] of JP14
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.0850 mm, -21.5900 mm): Segment of JP13 on F.Silkscreen
+    @(44.4500 mm, -22.8600 mm): PTH pad 1 [D8] of JP13
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(49.5300 mm, -14.2240 mm): Segment of R7 on F.Silkscreen
+    @(49.5300 mm, -15.2400 mm): PTH pad P$2 [N$4] of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(49.5300 mm, -13.9700 mm): Segment of R7 on F.Silkscreen
+    @(49.5300 mm, -12.7000 mm): PTH pad P$1 [GREEN] of R7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(52.0700 mm, -14.2240 mm): Segment of R6 on F.Silkscreen
+    @(52.0700 mm, -15.2400 mm): PTH pad P$2 [N$3] of R6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(52.0700 mm, -13.9700 mm): Segment of R6 on F.Silkscreen
+    @(52.0700 mm, -12.7000 mm): PTH pad P$1 [RED] of R6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8150 mm, -11.7475 mm): Segment of JP18 on F.Silkscreen
+    @(44.4500 mm, -13.0175 mm): PTH pad 1 [BLUE] of JP18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8150 mm, -16.5100 mm): Segment of JP15 on F.Silkscreen
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.0850 mm, -16.5100 mm): Segment of JP15 on F.Silkscreen
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.1800 mm, -13.6525 mm): Segment of JP18 on F.Silkscreen
+    @(44.4500 mm, -13.0175 mm): PTH pad 1 [BLUE] of JP18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.0850 mm, -11.7475 mm): Segment of JP18 on F.Silkscreen
+    @(44.4500 mm, -13.0175 mm): PTH pad 1 [BLUE] of JP18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(45.7200 mm, -13.6525 mm): Segment of JP18 on F.Silkscreen
+    @(44.4500 mm, -13.0175 mm): PTH pad 1 [BLUE] of JP18
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.9900 mm, -14.2240 mm): Segment of R8 on F.Silkscreen
+    @(46.9900 mm, -15.2400 mm): PTH pad P$2 [N$5] of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(46.9900 mm, -13.9700 mm): Segment of R8 on F.Silkscreen
+    @(46.9900 mm, -12.7000 mm): PTH pad P$1 [BLUE] of R8
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8900 mm, -36.8300 mm): Segment of R3 on F.Silkscreen
+    @(8.8900 mm, -35.5600 mm): PTH pad P$1 [A5] of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8900 mm, -29.2100 mm): Segment of R1 on F.Silkscreen
+    @(8.8900 mm, -30.4800 mm): PTH pad P$2 [5V] of R1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(20.3200 mm, -52.7050 mm): Footprint text of C5 (+)
+    @(21.5900 mm, -52.4350 mm): PTH pad + [VIN] of C5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(6.3500 mm, -41.9100 mm): Segment of R2 on F.Silkscreen
+    @(6.3500 mm, -43.1800 mm): PTH pad P$1 [AVCC] of R2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8.8900 mm, -41.9100 mm): Segment of R3 on F.Silkscreen
+    @(8.8900 mm, -43.1800 mm): PTH pad P$2 [AVCC] of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(6.3500 mm, -36.8300 mm): Segment of R2 on F.Silkscreen
+    @(6.3500 mm, -35.5600 mm): PTH pad P$2 [A4] of R2
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0610 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(6.3500 mm, -39.3700 mm): PCB text 'I2C PULL-UP' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3454 mm)
+    Rule: board setup constraints silk text height; warning
+    @(6.3500 mm, -39.3700 mm): PCB text 'I2C PULL-UP' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0610 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(8.8900 mm, -39.3700 mm): PCB text 'I2C PULL-UP' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3454 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.8900 mm, -39.3700 mm): PCB text 'I2C PULL-UP' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0610 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(8.8900 mm, -26.6700 mm): PCB text 'RESET PULLUP' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3454 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.8900 mm, -26.6700 mm): PCB text 'RESET PULLUP' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0610 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(46.9900 mm, -31.7500 mm): PCB text 'LED 13' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3454 mm)
+    Rule: board setup constraints silk text height; warning
+    @(46.9900 mm, -31.7500 mm): PCB text 'LED 13' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(11.4300 mm, -15.8750 mm): PCB text 'RESET' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(14.6050 mm, -10.1600 mm): PCB text 'pull up resistors' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(21.2725 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.6700 mm, -40.3225 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.6700 mm, -21.2725 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(28.2575 mm, -15.8750 mm): PCB text 'compatible' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(29.2100 mm, -40.3225 mm): PCB text 'AREF' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(29.2100 mm, -21.2725 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(31.7500 mm, -40.3225 mm): PCB text 'AVCC' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(37.4650 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(40.0050 mm, -16.1925 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(40.3225 mm, -48.2600 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(41.2750 mm, -54.6100 mm): PCB text 'power led
+resistor' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(42.8625 mm, -48.2600 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(45.0850 mm, -47.6250 mm): PCB text '*' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.5775 mm, -23.4950 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.8950 mm, -43.8150 mm): PCB text 'ICSP' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.8950 mm, -17.7800 mm): PCB text 'B' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(49.5300 mm, -11.1125 mm): PCB text 'current limit' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(49.5300 mm, -10.1600 mm): PCB text 'resistors' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(49.8475 mm, -17.7800 mm): PCB text 'G' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(51.1175 mm, -25.0825 mm): PCB text 'Common' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(52.0700 mm, -17.7800 mm): PCB text 'R' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5182 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.3400 mm, -23.4950 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(5.0800 mm, -48.8950 mm): PCB text '+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(5.0800 mm, -47.3075 mm): PCB text 'Batt' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(5.0800 mm, -45.7200 mm): PCB text '-' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(5.3975 mm, -6.3500 mm): PCB text 'RESET' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.8900 mm, -20.3200 mm): PCB text '5V+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(8.8900 mm, -17.7800 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(11.4300 mm, -47.6250 mm): PCB text 'A5' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.6525 mm, -1.5875 mm): PCB text 'B1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.9700 mm, -47.6250 mm): PCB text 'A4' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(16.5100 mm, -47.6250 mm): PCB text 'A3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.0500 mm, -47.6250 mm): PCB text 'A2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(20.9550 mm, -1.5875 mm): PCB text 'B2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(21.5900 mm, -47.6250 mm): PCB text 'A1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(24.1300 mm, -47.6250 mm): PCB text 'A0' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.6700 mm, -10.7950 mm): PCB text 'B1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(28.2575 mm, -19.0500 mm): PCB text 'Arduino' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(28.2575 mm, -1.5875 mm): PCB text 'B3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(29.2100 mm, -10.7950 mm): PCB text 'B2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(31.7500 mm, -10.7950 mm): PCB text 'B3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(34.6075 mm, -10.7950 mm): PCB text 'P1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.8300 mm, -10.7950 mm): PCB text 'P2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(36.8300 mm, -1.5875 mm): PCB text 'P1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(45.7200 mm, -1.5875 mm): PCB text 'P2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(46.3550 mm, -54.9275 mm): PCB text 'POWER' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(51.7525 mm, -32.7025 mm): PCB text '13' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(13.9700 mm, -16.1925 mm): PCB text '0' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(16.5100 mm, -16.1925 mm): PCB text '1' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(19.0500 mm, -16.1925 mm): PCB text '2' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(21.9075 mm, -15.8750 mm): PCB text '3' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(46.3550 mm, -45.7200 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(46.3550 mm, -43.1800 mm): PCB text '5V+' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.6100 mm, -52.7050 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.6100 mm, -50.1650 mm): PCB text '+5V' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.6100 mm, -5.7150 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(54.6100 mm, -2.8575 mm): PCB text '+5V' on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(26.6700 mm, -53.9750 mm): Footprint text of IC1 (IN)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(26.6700 mm, -53.9750 mm): Footprint text of IC1 (IN)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(29.2100 mm, -53.9750 mm): Footprint text of IC1 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(29.2100 mm, -53.9750 mm): Footprint text of IC1 (GND)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(31.7500 mm, -53.9750 mm): Footprint text of IC1 (OUT)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(31.7500 mm, -53.9750 mm): Footprint text of IC1 (OUT)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(49.8475 mm, -24.7650 mm): Reference field of JP19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(49.8475 mm, -24.7650 mm): Reference field of JP19
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -30.8610 mm): Footprint text of JP2 (DTR)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -28.3210 mm): Footprint text of JP2 (TXO)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -25.7810 mm): Footprint text of JP2 (RXI)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -23.2410 mm): Footprint text of JP2 (VCC)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -20.7010 mm): Footprint text of JP2 (CTS)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6909 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.0640 mm, -18.1610 mm): Footprint text of JP2 (GND)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(4.1275 mm, -41.9100 mm): Footprint text of U$2 (SCL)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.1275 mm, -41.9100 mm): Footprint text of U$2 (SCL)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(4.1275 mm, -39.3700 mm): Footprint text of U$2 (SDA)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.1275 mm, -39.3700 mm): Footprint text of U$2 (SDA)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(4.1275 mm, -36.8300 mm): Footprint text of U$2 (5V)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.1275 mm, -36.8300 mm): Footprint text of U$2 (5V)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0650 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(4.1275 mm, -34.2900 mm): Footprint text of U$2 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7478 mm)
+    Rule: board setup constraints silk text height; warning
+    @(4.1275 mm, -34.2900 mm): Footprint text of U$2 (GND)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(45.7200 mm, -29.2100 mm): Reference field of R5
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(45.7200 mm, -29.2100 mm): Reference field of R5
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.2600 mm, -41.9100 mm): Footprint text of J1 (GND)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.2600 mm, -41.9100 mm): Footprint text of J1 (GND)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.2600 mm, -39.3700 mm): Footprint text of J1 (MOSI)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.2600 mm, -39.3700 mm): Footprint text of J1 (MOSI)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(48.2600 mm, -36.8300 mm): Footprint text of J1 (+V)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(48.2600 mm, -36.8300 mm): Footprint text of J1 (+V)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.9750 mm, -41.9100 mm): Footprint text of J1 (RST)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.9750 mm, -41.9100 mm): Footprint text of J1 (RST)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.9750 mm, -39.3700 mm): Footprint text of J1 (SCK)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.9750 mm, -39.3700 mm): Footprint text of J1 (SCK)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0488 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(53.9750 mm, -36.8300 mm): Footprint text of J1 (MISO)
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5608 mm)
+    Rule: board setup constraints silk text height; warning
+    @(53.9750 mm, -36.8300 mm): Footprint text of J1 (MISO)
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(33.0200 mm, -45.2120 mm): Reference field of C6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(33.0200 mm, -45.2120 mm): Reference field of C6
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0.0800 mm; actual 0.0325 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(25.4000 mm, -43.6880 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3739 mm)
+    Rule: board setup constraints silk text height; warning
+    @(25.4000 mm, -43.6880 mm): Reference field of C3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(52.0700 mm, -52.0700 mm): Arc on Edge.Cuts
+    @(54.5338 mm, -54.0512 mm): Reference field of JP16
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(49.8475 mm, -21.5900 mm): Via [GND] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(53.6575 mm, -23.4950 mm): Track [5V] on F.Cu, length 0.4490 mm
+
+** Found 48 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2.5400 mm, -17.1450 mm): PTH pad P$6 [GND] of JP2
+    @(2.5400 mm, -19.6850 mm): PTH pad P$5 [GND] of JP2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(2.5400 mm, -17.1450 mm): PTH pad P$6 [GND] of JP2
+    @(11.4300 mm, -17.7800 mm): PTH pad 6 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(7.6200 mm, -45.7200 mm): PTH pad P$1 [GND] of GND0
+    @(2.5400 mm, -34.2900 mm): PTH pad GND [GND] of U$2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.6487 mm, -7.8994 mm): PTH pad 1 [GND] of S5
+    @(11.0744 mm, -8.6487 mm): PTH pad 2 [GND] of S1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(8.6487 mm, -7.8994 mm): PTH pad 1 [GND] of S5
+    @(2.1463 mm, -7.8994 mm): PTH pad 2 [GND] of S5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0744 mm, -8.6487 mm): PTH pad 2 [GND] of S1
+    @(18.6944 mm, -8.6487 mm): PTH pad 2 [GND] of S2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.0744 mm, -8.6487 mm): PTH pad 2 [GND] of S1
+    @(11.4300 mm, -17.7800 mm): PTH pad 6 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.4300 mm, -45.7200 mm): PTH pad 6 [GND] of JP9
+    @(13.9700 mm, -45.7200 mm): PTH pad 5 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(11.4300 mm, -45.7200 mm): PTH pad 6 [GND] of JP9
+    @(7.6200 mm, -45.7200 mm): PTH pad P$1 [GND] of GND0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(13.9700 mm, -45.7200 mm): PTH pad 5 [GND] of JP9
+    @(16.5100 mm, -45.7200 mm): PTH pad 4 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(13.9700 mm, -17.7800 mm): PTH pad 5 [GND] of JP12
+    @(16.5100 mm, -17.7800 mm): PTH pad 4 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(13.9700 mm, -17.7800 mm): PTH pad 5 [GND] of JP12
+    @(11.4300 mm, -17.7800 mm): PTH pad 6 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(16.5100 mm, -45.7200 mm): PTH pad 4 [GND] of JP9
+    @(19.0500 mm, -45.7200 mm): PTH pad 3 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(16.5100 mm, -17.7800 mm): PTH pad 4 [GND] of JP12
+    @(19.0500 mm, -17.7800 mm): PTH pad 3 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(18.6944 mm, -8.6487 mm): PTH pad 2 [GND] of S2
+    @(25.9969 mm, -8.6487 mm): PTH pad 2 [GND] of S3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(19.0500 mm, -17.7800 mm): PTH pad 3 [GND] of JP12
+    @(21.5900 mm, -17.7800 mm): PTH pad 2 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(21.5900 mm, -50.4350 mm): PTH pad - [GND] of C5
+    @(21.5900 mm, -45.7200 mm): PTH pad 2 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(21.5900 mm, -45.7200 mm): PTH pad 2 [GND] of JP9
+    @(19.0500 mm, -45.7200 mm): PTH pad 3 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.1300 mm, -45.7200 mm): PTH pad 1 [GND] of JP9
+    @(21.5900 mm, -45.7200 mm): PTH pad 2 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.1300 mm, -17.7800 mm): PTH pad 1 [GND] of JP12
+    @(21.5900 mm, -17.7800 mm): PTH pad 2 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.6700 mm, -45.7200 mm): PTH pad 2 [GND] of C3
+    @(24.1300 mm, -45.7200 mm): PTH pad 1 [GND] of JP9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.6700 mm, -45.7200 mm): PTH pad 2 [GND] of C3
+    @(31.7500 mm, -45.7200 mm): PTH pad 1 [GND] of C6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.6700 mm, -45.7200 mm): PTH pad 2 [GND] of C3
+    @(26.6700 mm, -38.1000 mm): PTH pad 8 [GND] of JP5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.6700 mm, -38.1000 mm): PTH pad 8 [GND] of JP5
+    @(26.6700 mm, -35.5600 mm): PTH pad 22 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(26.6700 mm, -35.5600 mm): PTH pad 22 [GND] of U1
+    @(29.2100 mm, -27.9400 mm): PTH pad 8 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2100 mm, -51.4350 mm): PTH pad 2 [GND] of IC1
+    @(26.6700 mm, -45.7200 mm): PTH pad 2 [GND] of C3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2100 mm, -25.4000 mm): PTH pad 7 [GND] of JP4
+    @(29.2100 mm, -27.9400 mm): PTH pad 8 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2100 mm, -25.4000 mm): PTH pad 7 [GND] of JP4
+    @(29.2100 mm, -22.8600 mm): PTH pad 2 [GND] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(29.2100 mm, -22.8600 mm): PTH pad 2 [GND] of C1
+    @(24.1300 mm, -17.7800 mm): PTH pad 1 [GND] of JP12
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(33.0200 mm, -20.0025 mm): PTH pad 2 [GND] of Y1
+    @(29.2100 mm, -22.8600 mm): PTH pad 2 [GND] of C1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(34.2900 mm, -45.7200 mm): PTH pad 5 [GND] of JP6
+    @(31.7500 mm, -45.7200 mm): PTH pad 1 [GND] of C6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.8300 mm, -50.4350 mm): PTH pad - [GND] of C4
+    @(36.8300 mm, -45.7200 mm): PTH pad 4 [GND] of JP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.8300 mm, -45.7200 mm): PTH pad 4 [GND] of JP6
+    @(34.2900 mm, -45.7200 mm): PTH pad 5 [GND] of JP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.8300 mm, -17.7800 mm): PTH pad 4 [GND] of JP15
+    @(33.0200 mm, -20.0025 mm): PTH pad 2 [GND] of Y1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(39.3700 mm, -45.7200 mm): PTH pad 3 [GND] of JP6
+    @(36.8300 mm, -45.7200 mm): PTH pad 4 [GND] of JP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(39.3700 mm, -17.7800 mm): PTH pad 3 [GND] of JP15
+    @(36.8300 mm, -17.7800 mm): PTH pad 4 [GND] of JP15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(39.3700 mm, -2.5400 mm): PTH pad 3 [GND] of RV1
+    @(48.2600 mm, -2.5400 mm): PTH pad 3 [GND] of RV2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(41.9100 mm, -45.7200 mm): PTH pad 2 [GND] of JP6
+    @(39.3700 mm, -45.7200 mm): PTH pad 3 [GND] of JP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(41.9100 mm, -17.7800 mm): PTH pad 2 [GND] of JP15
+    @(39.3700 mm, -17.7800 mm): PTH pad 3 [GND] of JP15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.4500 mm, -45.7200 mm): PTH pad 1 [GND] of JP6
+    @(41.9100 mm, -45.7200 mm): PTH pad 2 [GND] of JP6
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.4500 mm, -45.7200 mm): PTH pad 1 [GND] of JP6
+    @(49.8475 mm, -41.9100 mm): PTH pad 6 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.4500 mm, -45.7200 mm): PTH pad 1 [GND] of JP6
+    @(46.3550 mm, -52.7050 mm): PTH pad K [GND] of LED1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+    @(41.9100 mm, -17.7800 mm): PTH pad 2 [GND] of JP15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+    @(49.8475 mm, -21.5900 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(48.2600 mm, -2.5400 mm): PTH pad 3 [GND] of RV2
+    @(52.7050 mm, -5.7150 mm): PTH pad 1 [GND] of JP17
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(51.4350 mm, -30.4800 mm): PTH pad K [GND] of LED2
+    @(50.2285 mm, -23.4950 mm): Track [GND] on F.Cu, length 1.5240 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.7050 mm, -52.7050 mm): PTH pad 1 [GND] of JP16
+    @(46.3550 mm, -52.7050 mm): PTH pad K [GND] of LED1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(52.7050 mm, -5.7150 mm): PTH pad 1 [GND] of JP17
+    @(44.4500 mm, -17.7800 mm): PTH pad 1 [GND] of JP15
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
